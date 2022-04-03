@@ -1,0 +1,835 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media(max-width: 1245px) {
+    
+    body {
+        font-size: 19px;
+    }
+    
+    
+    h1 {
+        font-size: 400%;
+        line-height: 80px;
+    }
+    
+    .btns {
+        width: 60%;
+    }
+    
+    .price-btn {
+    margin-left: 50px; 
+    }
+    
+    .price-btn a {
+        width: 60%;
+    }
+
+   .image { 
+        margin-top: 0px;
+    }
+}
+
+
+@media(max-width: 977px) {
+     h1 {
+        font-size: 300%;
+         line-height: 70px;
+    }
+    
+    
+     .logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 20px 10px 10px 50px;
+}
+    
+    
+    .vid {
+        width: 360px;
+        height:420px;
+    }
+    
+        .btns {
+        width: 60%;
+    }
+    
+    .text-box {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 140px;
+    }
+    
+    cite img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .customer-image {
+        font-size: 80%;
+        -ms-flex-preferred-size: 100px;
+        flex-basis: 100px;
+    }
+    
+    .section-price h2 {
+        margin-left: 20%;
+}
+    .price-box h4 {
+        font-size: 65%;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .price-box {
+        margin-right: 20px;
+        padding: 0px 5px 0px 30px;
+    }
+    
+    .form-container {
+        width: 90%;
+    }
+    
+    #form-box {
+            margin: 0px 30px;
+    }
+    
+    .submit-button {
+        padding: 2px;
+        width: 15%;
+    
+    }
+    
+    .image { 
+        margin-top: 0px;
+    }
+    .about-para :last-child{
+        width: 160%;
+        margin-right: 40px;
+        
+    }
+    
+    .vid {
+        width: 260px;
+        height:200px;
+    }
+    
+    
+    .about-vid {
+        height: 27vh;
+    }
+    
+    .section-numbers h2 {
+        margin-left: 110px;
+        padding-left: 110px;
+    }
+    
+}
+
+@media(max-width: 866px) {
+    
+    h1{
+        line-height: 60px;
+    }
+     .mobile-nav-icon {
+        display: flex;
+         width: 0%;
+         margin-left: 0px;
+    }
+    
+    
+    .main-nav {
+        flex-grow: 1;
+        flex-shrink: 0;
+        width: 50%;
+        display: flex;
+    }
+        
+    .main-nav ul {
+       flex-direction: column;
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: none;
+
+    }
+    
+    main-nav li {
+        display: flex;
+    }
+    
+    .main-nav li a {
+        font-size: 60%;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        display: flex;
+    }
+    
+    .nav-image {
+        flex-grow:1;
+        flex-shrink: 1;
+    }
+    
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 20px 20px 10px 50px;
+    }
+    
+    
+}
+
+@media(max-width: 795px) {
+    body {
+        font-size: 17px;
+    } 
+    
+    .logo {
+        height: 80px;
+        width: 80px;
+         margin: 25px 10px 5px 10px;
+
+    }  
+
+    
+    h1 {
+        font-size: 300%;
+    }
+    
+    .nav-image {
+        width: 10%;
+        padding-left: 5px;
+        
+    }
+    
+    .btns {
+        width: 70%;
+    }
+    
+    .image { 
+        margin-top: 0px;
+    }
+    
+    .vid {
+        width: 240px;
+        height:170px;
+    }
+    
+    .about-para :nth-child(2), .about-para :last-child {
+        width: 170%;
+        margin-right: 30px;
+    }
+    
+    .section-numbers h2 {
+        margin-left: 60px;
+        padding-left: 50px;
+    
+    }
+    
+    padding-left: 0px;
+    
+}
+
+@media(max-width: 660px) {
+    body {
+        font-size: 19px;
+    }
+    
+   .main-nav li a {
+        font-size: 55%;
+    }
+    
+    .logo {
+        height: 60px;
+        width: 60px;
+         margin: 25px 10px 5px 10px;
+
+    }  
+    
+    
+      h1 {
+        font-size: 200%;
+        line-height: 50px;
+        margin-left: 5px;
+    }
+    
+    .text-box {
+        margin-top: 300px;
+        width: 100%;
+        margin-left: 5px;
+        
+    }
+
+    h4 {
+        word-spacing: 10px;
+        letter-spacing: 5px;
+        font-size: 75%;
+    }
+    
+    .btns {
+        width: 90%;
+    }
+    
+
+    
+    .btns a {
+        letter-spacing: 1px;
+        word-spacing: 0px;
+    }
+    
+    .about-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+        width: 95%;
+    }
+    
+    
+    .vid {
+        width: 460px;
+        height:230px;
+    }
+    
+    
+    .about-vid {
+        height: 27vh;
+    }
+    
+    .about-para { 
+        font-size: 120%;  
+
+    }
+     .about-para :nth-child(2) {
+        width: 100%;
+    }
+    
+    .about-para :last-child{
+        width: 100%;
+    }
+
+    
+    .section-numbers h2 {
+        margin-left: 25%;
+    
+}
+    
+    .section-testimonials h2, .section-form h2 {
+        width: 100%;
+        margin: 0px 5px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 150%;
+        
+        
+    }
+    
+    .section-testimonials h2 {
+        font-size: 120%;
+    }
+    
+    .quote-container {
+
+        margin: 20px 0px 20px 20px;
+    }
+
+
+    .quote {
+        margin-right: 20px;
+        text-align:start;
+    }
+
+    
+    
+    cite {
+    
+        -webkit-box-align:start;
+    
+        -ms-flex-align:start;
+    
+        align-items:flex-start;
+        text-align: center;   
+    }
+
+    .image { 
+        margin-top: 0px;
+    }
+
+
+    cite img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    
+    
+    .section-price h2 {
+        margin-left: 10%;
+   }
+    
+    
+    .price-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .price-box {
+        padding: 10px 50px 0px 50px;
+        width: 60%;
+        border: none;
+        height: 65vh;
+        background-color: rgba(85, 85, 85, 0.1);
+        margin-bottom: 40px;
+
+
+    }
+      
+    .section-about h2 {
+       font-size: 130%
+    
+    }
+    
+    .price-box h3 {
+        font-size: 140%;
+    }
+    
+    .price-box h5{
+        font-size: 90%;
+
+    }
+    
+    span {
+    font-size: 220%;
+}
+    
+    .price-box h4 {
+        font-size: 85%
+    }
+    
+    .section-numbers h2 {
+        margin-left: 30px;
+        padding-left: 50px;
+    }
+    
+    .submit-button {
+        width: 30%;
+    }
+    
+    footer {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    .copy-right {
+        margin-bottom: 20px;
+    
+
+}
+
+
+
+@media(max-width: 480px) {
+    body {
+        font-size: 17px;
+    }
+    
+    
+      h1 {
+        font-size: 150%;
+          line-height: 40px;
+          margin-left: 15px;
+    }
+    
+    .main-nav  {
+        flex-grow: 1;
+        margin-right: 30px;
+        margin-left: 0px;
+    }
+    
+    .nav-image {
+        flex-grow: 0;
+        width: 20%;
+        margin-right: 5px;
+        height: 13vh;
+    }
+    
+    .logo {
+        width: 80%;
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 80%;
+    }
+    
+    .text-box h4 {
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        font-size: 70%;
+        margin-left: 5px;
+    }
+    
+    .btns {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+
+    
+    .btns a {
+        font-size: 90%;
+    }
+    
+    .section-about h2 {
+        font-size: 100%;
+    }
+    
+    .section-our-value h2 {
+        font-size: 100%;
+    }
+    
+    .value-images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px 8px;
+
+}
+
+    .samples {
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .samples p {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .samples img {
+        height: 200px;
+        width: 250px;
+    }
+
+        .section-numbers h2 {
+            margin-left: 30px;
+            font-size: 100%;
+            padding-left: 40px;
+        }
+    
+    
+    .numbers-container{
+        padding: 0px 10px;
+    }
+
+
+    .num {
+        font-size: 150%;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+
+    .desc {
+        width: 90%;
+        font-size:80%;
+    }
+    
+    .section-testimonials h2 {
+        font-size: 100%;
+    }
+    
+    
+    
+    .quote-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+}
+    
+    .quote {
+        width: 90%;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    
+    .quote p {
+        
+        margin-bottom: 5px;
+        margin-top: 30px;
+
+    }
+    cite {
+        width: 100%;
+    }
+    
+    .customer-image {
+        width: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-flex-line-pack: center;
+
+
+    }
+    
+    .quote img {
+        width: 50px;
+        height: 50px;
+         
+    }
+    
+    
+    .section-price h2 {
+        font-size: 100%;
+    }
+    
+    
+    .price-box {
+        width: 80%;
+    }
+    
+    .section-form {
+        width: 100%;
+    }
+    
+    .section-form h2 {
+        font-size: 100%;
+    }
+    
+    .form-item {
+        width: 90%;
+    }
+
+
+    .form-item label {
+        width: 30%;
+        
+    }
+
+    .form-item .input-box {
+        width: 70%;
+    }
+
+    select {
+         width: 70%;
+    } 
+    
+}
+    
+@media(max-width: 387px) {
+    
+    
+    h1 {
+        font-size: 100%;
+          line-height: 30px;
+          margin-left: 10px;
+     
+    }
+    
+    .logo {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .section-welcome {
+        height: 7vh;
+        align-items: center;
+    }
+    
+    .welcome, .head-icons {
+        font-size: 55%;
+    }
+    .text-box {
+        margin-top: 200px
+    }
+    
+    .text-box h4 {
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        font-size: 60%;
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .btns {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+
+    
+    .btns a {
+        margin-bottom: 15px;
+        font-size: 70%;
+        width: 50%;
+        padding-bottom: 3px;
+    }
+    
+    .section-about h2,     .section-our-value h2, .section-testimonials h2,  .section-price h2, .section-form  h2 {
+        font-size: 75%;
+        text-align: center;
+    }
+    
+    .section-numbers h2 {
+            margin-left: 0px;
+            font-size: 100%;
+            padding-left: 60px;
+        }
+    
+    .numbers-container {
+        flex-direction: column;
+        flex-grow: 1
+
+    }
+    
+    .numbers {
+        width: 100%;
+    }
+
+    .desc h3 {
+        width: 100%;
+        letter-spacing: 3px;
+        word-spacing: 4px;
+    }
+    
+ 
+    .section-price h2 {
+        margin-left: 0px;
+    }
+    
+    .price-box {
+        width: 100%;
+        margin: 20px 30px;
+        height: 80vh;
+    }
+    
+    
+    .Query-space {
+        width: 100%;
+    }
+    
+    .form-container {
+        height: 95vh;
+    }
+
+    
+    .form-item {
+        flex-direction: column;
+        width: 100%;
+    }                 
+    
+    .form-item label {
+        margin-bottom: 20px;
+        font-size: 85%;
+        width: 90%;
+    }
+
+    .form-item .input-box, select {
+        padding: 5px 10px;
+        width: 70%;
+    }
+    
+
+.submit-button {
+    width: 40%;
+    
+}
+
+
+.SUBMIT {
+    width: 90%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 8px;
+    margin: 5px 0px;
+}
+
+    .about-vid {
+        margin-left: 3px;
+        
+    }
+    
+    .vid {
+        margin-left: 20px;
+        margin-right: 30px;
+        width: 200px; 
+        height: 200px;
+    }
+    
+    
+    
+    }   
+    
+    
+@media(max-width: 310px) {
+        .logo {
+            width: 120%;
+            height: 100%;
+
+        }
+    body {
+        font-size: 14px;
+    }
+    
+    .nav-image {
+        
+        height: 8vh;
+        
+    }
+    
+    
+    
+    .head-icons {
+        flex-direction: column;
+    }
+    
+    .head-icons .icons {
+        margin-top: 10px;
+    }
+    .section-welcome {
+        height: 15vh;
+    }
+    .main-nav li a {
+        font-size: 50%;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
